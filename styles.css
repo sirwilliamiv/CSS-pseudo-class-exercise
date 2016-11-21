@@ -1,0 +1,19 @@
+
+
+
+li {
+	display: inline-block;
+	list-style: none;
+}
+
+span {
+
+	display: block;
+	border: solid 1px black;
+	margin: 25px;
+}
+
+.n-child > section:nth-of-type(even) {
+
+	border: solid 1px blue;
+}
